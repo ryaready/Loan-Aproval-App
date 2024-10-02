@@ -1,0 +1,91 @@
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gender" />
+
+    <EditText
+        android:id="@+id/married"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Married (Yes/No)" />
+
+    <EditText
+        android:id="@+id/dependents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dependents" />
+
+    <EditText
+        android:id="@+id/education"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Education Level" />
+
+    <EditText
+        android:id="@+id/self_employed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Self Employed (Yes/No)" />
+
+    <EditText
+        android:id="@+id/applicant_income"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Applicant Income" />
+
+    <EditText
+        android:id="@+id/coapplicant_income"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Coapplicant Income" />
+
+    <EditText
+        android:id="@+id/loan_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Loan Amount" />
+
+    <EditText
+        android:id="@+id/loan_amount_term"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Loan Amount Term" />
+
+    <EditText
+        android:id="@+id/credit_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Credit History (0 or 1)" />
+
+    <EditText
+        android:id="@+id/property_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Property Area" />
+
+    <TextView
+        android:id="@+id/prediction_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prediction will appear here"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+</LinearLayout>
